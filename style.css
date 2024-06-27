@@ -63,10 +63,53 @@ button{
     margin: auto;
     color: black;
     background-color: white;
+    padding: 30px;
+    margin-bottom: 5%;
+}
+.container-white #cats{
+    display: flex;
+    text-align: center;
 }
 h2{
     text-align: center;
 }
-/* .container-white img{
-    width: 200px;
-} */
+.main3{
+    background-color: #e5e7eb;
+}
+.container-gray{
+    max-width: 900px;
+    margin: auto;
+    color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+.container-gray p{
+    padding: 10% 8%;
+}
+#call{
+    background-color: #3882f6;
+    color: white;
+    text-align: left;
+    padding: 10px 10%;
+    border-radius: 10px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#call h2{
+    text-align: left;
+    margin-bottom: -1px;
+}
+#lastbtn{
+    border: 1px solid white;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: -10px;
+}
