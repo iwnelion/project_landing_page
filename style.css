@@ -1,1 +1,72 @@
-/* font roboto */
+body{
+    font-family: roboto;
+    margin-top: -33px;
+    margin-left: -33px;
+    margin-right: -33px;
+}
+.main{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.main .container-blue{
+    max-width: 900px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+h3{
+    font-size: 30px;
+    color: #f9faf8;
+    justify-content: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: -9px;
+}
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.container-blue-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container-blue{
+    padding: 12px 10px 50px 10px;
+}
+.container-white{
+    max-width: 900px;
+    margin: auto;
+    color: black;
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+/* .container-white img{
+    width: 200px;
+} */
